@@ -8,7 +8,8 @@ This is a solution to **Frontend Mentor** challenge
 - responsive 
 
 # preview 
-<div "width = 60px; height= 65px">
-![desktop-preview](images/desktop-preview.jpg)</div>
+<div style="width:60px ; height:60px">
+![desktop-preview](images/desktop-preview.jpg)
+</div>
 ![thank-you](images/thank-you-page.JPG)
 ![mobile-view](images/mobile-view.JPG)
