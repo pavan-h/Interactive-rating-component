@@ -13,6 +13,6 @@ This is a solution to **Frontend Mentor** challenge
 
 ![thank-you](images/thank-you-page.JPG)
 ![mobile-view](images/mobile-view.JPG)
-#Live Preview
+# Live Preview
 **[preview-site](https://pavan-h.github.io/Interactive-rating-component/)**
-+
+
