@@ -8,4 +8,5 @@ This is a solution to **Frontend Mentor** challenge
 - responsive 
 
 # preview 
+![desktop-preview](images/desktop-preview.jpg)
 
