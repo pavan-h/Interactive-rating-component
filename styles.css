@@ -1,0 +1,182 @@
+:root{
+    /* ### Primary */
+    --Orange: hsl(25, 97%, 53%);
+/* ### Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    background: var(--Very-Dark-Blue);
+}
+.container  {
+    width: 400px;
+    height: 400px;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Light-Grey);
+}
+h1 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: var(--White);
+}
+/* rating state starts */
+.rating-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: var(--Dark-Blue);
+    border-radius: 30px;
+    display: block;
+}
+
+.rating-box .star {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background: var(--Medium-Grey);
+    border-radius: 50%;
+    padding: 8px 8px;
+    
+}
+.rating-box h1 {
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+.rating-box p {
+    position: inherit;
+    top: 180px;
+    left: 30px;
+}
+.rate  {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.7em 0;
+    font-weight: bold;
+    width: 80%;
+}
+.rating-btn {
+    background-color: var(--Medium-Grey);
+    border-radius: 50%;
+    padding: 12px 12px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    top: 170px;
+    left: 30px;
+    color: var(--Light-Grey);
+}
+.rating-btn:hover {
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+.rating-btn:active {
+    background-color: var(--Orange);
+    color: var(--White);
+} 
+
+.selected {
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+
+#submit-btn {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--White);
+    background-color: var(--Orange);
+    border: none;
+    width: 95%;
+    padding: 1em;
+    border-radius: 2em;
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    position: relative;
+    top: 170px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#submit-btn:active {
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+input[type="radio"]{
+    display: none;
+}
+/* rating state ends */
+
+/* thank you  state starts */
+.thank-you {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: var(--Dark-Blue);
+    border-radius: 30px;
+    display: none;
+}
+
+.thank-you .thank-u-img {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.thank-you .rating {
+    background-color: hsl(213, 19%, 25%);;
+    color: var(--Orange);
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px var(--Dark-Blue);
+    position: relative;
+    top: 90px;
+    left: 85px;
+}
+.thank-you .title{
+    position: relative;
+    top: 120px;
+    text-align: center;
+    
+}
+.thank-you p {
+    position: relative;
+    top: 150px;
+    width: 70%;
+    left: 55px;
+    text-align: center;
+}
+
+/* thank you state ends  */
+.attribution { font-size: 11px; 
+     text-align: center;
+     position: relative;
+     top: 620px;
+     color: var(--Light-Grey);
+}
+.attribution a { 
+    color: var(--Orange);
+    position: relative;
+    text-transform: capitalize;
+}
