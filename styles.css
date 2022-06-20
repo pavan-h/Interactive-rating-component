@@ -67,7 +67,7 @@ h1 {
 .rate  {
     display: flex;
     justify-content: space-between;
-    margin: 1.7em 0;
+    margin: 27px 0;
     font-weight: bold;
     width: 80%;
 }
@@ -103,8 +103,8 @@ h1 {
     background-color: var(--Orange);
     border: none;
     width: 95%;
-    padding: 1em;
-    border-radius: 2em;
+    padding: 16px;
+    border-radius: 32px;
     display: block;
     margin: 0 auto;
     font-weight: 700;
@@ -112,6 +112,7 @@ h1 {
     top: 170px;
     left: 0px;
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 #submit-btn:active {
@@ -180,3 +181,6 @@ input[type="radio"]{
     position: relative;
     text-transform: capitalize;
 }
+
+
+
